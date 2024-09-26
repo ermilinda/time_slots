@@ -1,0 +1,66 @@
+.headerName {
+  display: flex;
+  place-content: space-evenly;
+}
+
+.headerName p {
+  border: 1px solid;
+  padding: 10px 50px;
+}
+.timeSlot{
+  display: flex;
+}
+
+.selectedTimeSlot{
+  display: flex;
+  flex-direction: column;
+}
+.mainContainer{
+  gap: 60px;
+  display: flex;
+  justify-content: center;
+  
+}
+.company{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.mainHeader{
+  border: 1px solid;
+  padding: 12px 20px;
+  width: 200px; 
+  height: 300px;    
+  overflow-y: auto; 
+  border-radius: 8px;  
+  background-color: gainsboro;
+
+
+}
+
+.company button {
+  margin: 10px;
+  width: 100px;
+}
+
+.companyName{
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: gainsboro;
+
+}
+
+.selectedSlots{
+  border: 1px solid;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: gainsboro;
+  min-height: 40px;
+  align-content: center;
+}
